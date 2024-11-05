@@ -1,4 +1,3 @@
-# main.py
 import pandas as pd
 from train import cross_validate
 from model import SoundClassifier

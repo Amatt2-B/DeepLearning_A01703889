@@ -1,4 +1,3 @@
-# test_model.py
 import torch
 from model import SoundClassifier
 
