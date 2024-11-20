@@ -22,7 +22,6 @@ def save_spectrogram(audio_path, output_path):
 
 # Procesar los archivos de audio en espectrogramas
 def process_audio_files(metadata, data_dir, output_dir):
-    # Crea la carpeta de salida si no existe
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
@@ -36,10 +35,11 @@ def process_audio_files(metadata, data_dir, output_dir):
 # Ejecución principal
 if __name__ == "__main__":
     # Define las rutas para el CSV, los archivos de audio y la salida de los espectrogramas
-    csv_path = "UrbanSound8K.csv"  # Ruta al archivo CSV
-    data_dir = "."  # Ruta donde están las carpetas fold1, fold2, etc.
-    output_dir = "spectrograms"  # Carpeta donde se guardarán los espectrogramas
+    csv_path = "UrbanSound8K.csv"  
+    data_dir = "."  
+    output_dir = "spectrograms" 
 
-    # Cargar metadatos y procesar archivos de audio
+    # Carga de metadatos y procesar archivos de audio
     metadata = load_metadata(csv_path)
     process_audio_files(metadata, data_dir, output_dir)
+
