@@ -11,9 +11,12 @@ import os
 
 # Definir las transformaciones para los espectrogramas
 transform = transforms.Compose([
+    transforms.RandomHorizontalFlip(),  
+    transforms.RandomRotation(10),    
     transforms.Resize((64, 64)),
     transforms.ToTensor()
 ])
+
 
 class SpectrogramDataset(Dataset):
     def __init__(self, metadata, img_dir, transform=None):
@@ -26,29 +29,27 @@ class SpectrogramDataset(Dataset):
 
     def __getitem__(self, idx):
         row = self.metadata.iloc[idx]
-        img_name = row['slice_file_name'].replace('.wav', '.png')  # Cambiar la extensión a .png
+        img_name = row['slice_file_name'].replace('.wav', '.png')
         label = row['classID']
         
-        # Ruta completa del espectrograma
         img_path = os.path.join(self.img_dir, img_name)
         
         # Cargar la imagen
         try:
-            image = Image.open(img_path).convert('L')  # Convertir a escala de grises
+            image = Image.open(img_path).convert('L')
         except FileNotFoundError:
             print(f"Error: Archivo no encontrado - {img_path}")
             raise
 
-        # Aplicar transformaciones si existen
+        # Aplicar transformaciones
         if self.transform:
             image = self.transform(image)
 
         return image, label
 
-
 # Función de entrenamiento
-def train(model, train_loader, criterion, optimizer):
-    model.train()  # Configura el modelo en modo de entrenamiento
+def train(model, train_loader, criterion, optimizer, device):
+    model.train()  # Configura el modelo en training
     running_loss = 0.0
 
     for images, labels in train_loader:
@@ -57,7 +58,6 @@ def train(model, train_loader, criterion, optimizer):
         # Reinicia los gradientes
         optimizer.zero_grad()
 
-        # Forward pass
         outputs = model(images)
         loss = criterion(outputs, labels)
 
@@ -70,8 +70,8 @@ def train(model, train_loader, criterion, optimizer):
     return running_loss / len(train_loader.dataset)
 
 # Función de evaluación
-def evaluate(model, val_loader, criterion):
-    model.eval()  # Configura el modelo en modo de evaluación
+def evaluate(model, val_loader, criterion, device):
+    model.eval()  # Configura el modelo en evaluation
     running_loss = 0.0
     correct = 0
 
@@ -92,7 +92,7 @@ def evaluate(model, val_loader, criterion):
     return running_loss / len(val_loader.dataset), accuracy
 
 # Validación cruzada
-def cross_validate(model_class, csv_metadata, img_dir):
+def cross_validate(model_class, csv_metadata, img_dir, device):
     kfold = KFold(n_splits=10)
     results = []
     for fold, (train_idx, val_idx) in enumerate(kfold.split(csv_metadata)):
@@ -110,8 +110,8 @@ def cross_validate(model_class, csv_metadata, img_dir):
 
         print(f"\nEntrenando en Fold {fold+1}/{kfold.get_n_splits()}...")
         for epoch in range(epochs):
-            train_loss = train(model, train_loader, criterion, optimizer)
-            val_loss, val_accuracy = evaluate(model, val_loader, criterion)
+            train_loss = train(model, train_loader, criterion, optimizer, device)
+            val_loss, val_accuracy = evaluate(model, val_loader, criterion, device)
             print(f"Fold {fold+1}, Epoch {epoch+1}: Train Loss = {train_loss:.4f}, Val Loss = {val_loss:.4f}, Val Accuracy = {val_accuracy:.4f}")
         
         # Guardar el modelo al final del fold actual
@@ -124,5 +124,6 @@ def cross_validate(model_class, csv_metadata, img_dir):
 # Parámetros de configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 batch_size = 64
-learning_rate = 0.0005
-epochs = 15
+learning_rate = 0.0001
+epochs = 20
+
