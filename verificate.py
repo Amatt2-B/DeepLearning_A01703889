@@ -4,7 +4,7 @@ import pandas as pd
 metadata = pd.read_csv('UrbanSound8k.csv')
 
 # Nombre del archivo de audio original (sin la extensión de espectrograma)
-audio_file_name = '6988-5-0-1.wav'
+audio_file_name = '7389-1-1-0.wav'
 
 # Filtrar el DataFrame para encontrar el archivo y su clase
 file_info = metadata[metadata['slice_file_name'] == audio_file_name]
