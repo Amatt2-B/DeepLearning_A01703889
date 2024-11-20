@@ -19,7 +19,7 @@ transform = transforms.Compose([
 ])
 
 # Ruta del espectrograma de prueba
-img_path = sys.argv[1] if len(sys.argv) > 1 else "path_to_test_spectrogram.png"  # Cambia la ruta
+img_path = sys.argv[1] if len(sys.argv) > 1 else r"C:\Users\adria\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\7mo Sem\DeepLearningSounds\spectrograms\7389-1-1-0.png"
 
 # Cargar y transformar la imagen
 image = Image.open(img_path).convert('L')
