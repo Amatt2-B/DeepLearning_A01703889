@@ -1,15 +1,19 @@
 import pandas as pd
+import torch
 from train import cross_validate
 from model import SoundClassifier
 from data_processing import load_metadata
 
-# Configuración de rutas
-csv_path = "UrbanSound8K.csv"  # Ruta del archivo CSV
-img_dir = "spectrograms"  # Carpeta de espectrogramas generados
+# Configurar dispositivo
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Usando dispositivo: {device}")
 
-# Cargar metadatos y realizar entrenamiento y validación cruzada
+csv_path = "UrbanSound8K.csv"
+img_dir = "spectrograms"
+
+# Realizar entrenamiento y validación cruzada, pasando el dispositivo
 metadata = load_metadata(csv_path)
-results = cross_validate(SoundClassifier, metadata, img_dir)
+results = cross_validate(SoundClassifier, metadata, img_dir, device=device)
 
 # Mostrar resultados promedio
 avg_loss = sum([result[0] for result in results]) / len(results)
