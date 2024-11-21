@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado de Clasificación</title>
+</head>
+<body>
+    <h1>Resultado de la Clasificación</h1>
+    <p>Clase Predicha: {{ prediction }}</p>
+
+    <h2>Escuchar Audio</h2>
+    <audio controls>
+        <source src="{{ url_for('uploaded_file', filename=audio_file) }}" type="audio/wav">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <a href="/">Subir otro archivo</a>
+</body>
+</html>

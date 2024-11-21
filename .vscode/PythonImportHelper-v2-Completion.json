@@ -1,0 +1,682 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_from_directory",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
+        "documentation": {}
+    },
+    {
+        "label": "secure_filename",
+        "importPath": "werkzeug.utils",
+        "description": "werkzeug.utils",
+        "isExtraImport": true,
+        "detail": "werkzeug.utils",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "SoundClassifier",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "SoundClassifier",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "SoundClassifier",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "SoundClassifier",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "SoundClassifier",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "librosa.display",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa.display",
+        "description": "librosa.display",
+        "detail": "librosa.display",
+        "documentation": {}
+    },
+    {
+        "label": "cross_validate",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "importPath": "data_processing",
+        "description": "data_processing",
+        "isExtraImport": true,
+        "detail": "data_processing",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "KFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "audio_to_spectrogram",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def audio_to_spectrogram(audio_path):\n    y, sr = librosa.load(audio_path, sr=22050)\n    spectrogram = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128, fmax=8000)\n    spectrogram_db = librosa.power_to_db(spectrogram, ref=np.max)\n    # Crear y guardar el espectrograma\n    plt.figure(figsize=(2, 2))\n    plt.axis('off')\n    plt.imshow(spectrogram_db, aspect='auto', origin='lower')\n    plt.savefig('temp_spectrogram.png', bbox_inches='tight', pad_inches=0)\n    plt.close()  # Asegúrate de cerrar la figura de matplotlib",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "classify_audio",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def classify_audio(image):\n    with torch.no_grad():\n        output = model(image)\n        _, predicted = torch.max(output, 1)\n    return classes[predicted.item()]\n@app.route('/')\ndef index():\n    return render_template('index.html')\n@app.route('/predict', methods=['POST'])\ndef predict():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    return render_template('index.html')\n@app.route('/predict', methods=['POST'])\ndef predict():\n    if 'file' not in request.files:\n        return jsonify({\"error\": \"No se proporcionó ningún archivo\"}), 400\n    # Guardar archivo de audio\n    file = request.files['file']\n    filename = secure_filename(file.filename)\n    audio_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def predict():\n    if 'file' not in request.files:\n        return jsonify({\"error\": \"No se proporcionó ningún archivo\"}), 400\n    # Guardar archivo de audio\n    file = request.files['file']\n    filename = secure_filename(file.filename)\n    audio_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)\n    file.save(audio_path)\n    # Generar y clasificar el espectrograma\n    image = audio_to_spectrogram(audio_path)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded_file",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def uploaded_file(filename):\n    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads'\n# Configuración del dispositivo\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n# Clases de sonido\nclasses = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\n# Cargar el modelo\nmodel = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold1.pth\", map_location=device))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads'\n# Configuración del dispositivo\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n# Clases de sonido\nclasses = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\n# Cargar el modelo\nmodel = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold1.pth\", map_location=device))\nmodel.eval()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n# Clases de sonido\nclasses = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\n# Cargar el modelo\nmodel = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold1.pth\", map_location=device))\nmodel.eval()\n# Transformación para el espectrograma\ntransform = transforms.Compose([",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "classes",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "classes = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\n# Cargar el modelo\nmodel = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold1.pth\", map_location=device))\nmodel.eval()\n# Transformación para el espectrograma\ntransform = transforms.Compose([\n    transforms.Resize((64, 64)),\n    transforms.ToTensor()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "model = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold1.pth\", map_location=device))\nmodel.eval()\n# Transformación para el espectrograma\ntransform = transforms.Compose([\n    transforms.Resize((64, 64)),\n    transforms.ToTensor()\n])\ndef audio_to_spectrogram(audio_path):\n    y, sr = librosa.load(audio_path, sr=22050)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "transform",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "transform = transforms.Compose([\n    transforms.Resize((64, 64)),\n    transforms.ToTensor()\n])\ndef audio_to_spectrogram(audio_path):\n    y, sr = librosa.load(audio_path, sr=22050)\n    spectrogram = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128, fmax=8000)\n    spectrogram_db = librosa.power_to_db(spectrogram, ref=np.max)\n    # Crear y guardar el espectrograma\n    plt.figure(figsize=(2, 2))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "kind": 2,
+        "importPath": "data_processing",
+        "description": "data_processing",
+        "peekOfCode": "def load_metadata(csv_path):\n    return pd.read_csv(csv_path)\n# Generar espectrograma y guardarlo como imagen\ndef save_spectrogram(audio_path, output_path):\n    y, sr = librosa.load(audio_path, sr=None)\n    spect = librosa.feature.melspectrogram(y=y, sr=sr)\n    spect = librosa.power_to_db(spect, ref=np.max)\n    plt.figure(figsize=(2, 2))\n    librosa.display.specshow(spect, sr=sr)\n    plt.axis('off')",
+        "detail": "data_processing",
+        "documentation": {}
+    },
+    {
+        "label": "save_spectrogram",
+        "kind": 2,
+        "importPath": "data_processing",
+        "description": "data_processing",
+        "peekOfCode": "def save_spectrogram(audio_path, output_path):\n    y, sr = librosa.load(audio_path, sr=None)\n    spect = librosa.feature.melspectrogram(y=y, sr=sr)\n    spect = librosa.power_to_db(spect, ref=np.max)\n    plt.figure(figsize=(2, 2))\n    librosa.display.specshow(spect, sr=sr)\n    plt.axis('off')\n    plt.savefig(output_path, bbox_inches='tight', pad_inches=0)\n    plt.close()\n# Procesar los archivos de audio en espectrogramas",
+        "detail": "data_processing",
+        "documentation": {}
+    },
+    {
+        "label": "process_audio_files",
+        "kind": 2,
+        "importPath": "data_processing",
+        "description": "data_processing",
+        "peekOfCode": "def process_audio_files(metadata, data_dir, output_dir):\n    if not os.path.exists(output_dir):\n        os.makedirs(output_dir)\n    # Procesa cada archivo de audio y guarda el espectrograma\n    for index, row in metadata.iterrows():\n        audio_path = os.path.join(data_dir, f\"fold{row['fold']}\", row['slice_file_name'])\n        output_path = os.path.join(output_dir, f\"{row['slice_file_name'].replace('.wav', '.png')}\")\n        save_spectrogram(audio_path, output_path)\n        print(f\"Guardado espectrograma: {output_path}\")  # Mensaje de confirmación\n# Ejecución principal",
+        "detail": "data_processing",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Usando dispositivo: {device}\")\ncsv_path = \"UrbanSound8K.csv\"\nimg_dir = \"spectrograms\"\n# Realizar entrenamiento y validación cruzada, pasando el dispositivo\nmetadata = load_metadata(csv_path)\nresults = cross_validate(SoundClassifier, metadata, img_dir, device=device)\n# Mostrar resultados promedio\navg_loss = sum([result[0] for result in results]) / len(results)\navg_accuracy = sum([result[1] for result in results]) / len(results)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "csv_path",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "csv_path = \"UrbanSound8K.csv\"\nimg_dir = \"spectrograms\"\n# Realizar entrenamiento y validación cruzada, pasando el dispositivo\nmetadata = load_metadata(csv_path)\nresults = cross_validate(SoundClassifier, metadata, img_dir, device=device)\n# Mostrar resultados promedio\navg_loss = sum([result[0] for result in results]) / len(results)\navg_accuracy = sum([result[1] for result in results]) / len(results)\nprint(f\"\\nResultados promedio - Pérdida: {avg_loss:.4f}, Precisión: {avg_accuracy:.4f}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "img_dir",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "img_dir = \"spectrograms\"\n# Realizar entrenamiento y validación cruzada, pasando el dispositivo\nmetadata = load_metadata(csv_path)\nresults = cross_validate(SoundClassifier, metadata, img_dir, device=device)\n# Mostrar resultados promedio\navg_loss = sum([result[0] for result in results]) / len(results)\navg_accuracy = sum([result[1] for result in results]) / len(results)\nprint(f\"\\nResultados promedio - Pérdida: {avg_loss:.4f}, Precisión: {avg_accuracy:.4f}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "metadata",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "metadata = load_metadata(csv_path)\nresults = cross_validate(SoundClassifier, metadata, img_dir, device=device)\n# Mostrar resultados promedio\navg_loss = sum([result[0] for result in results]) / len(results)\navg_accuracy = sum([result[1] for result in results]) / len(results)\nprint(f\"\\nResultados promedio - Pérdida: {avg_loss:.4f}, Precisión: {avg_accuracy:.4f}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "results = cross_validate(SoundClassifier, metadata, img_dir, device=device)\n# Mostrar resultados promedio\navg_loss = sum([result[0] for result in results]) / len(results)\navg_accuracy = sum([result[1] for result in results]) / len(results)\nprint(f\"\\nResultados promedio - Pérdida: {avg_loss:.4f}, Precisión: {avg_accuracy:.4f}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "avg_loss",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "avg_loss = sum([result[0] for result in results]) / len(results)\navg_accuracy = sum([result[1] for result in results]) / len(results)\nprint(f\"\\nResultados promedio - Pérdida: {avg_loss:.4f}, Precisión: {avg_accuracy:.4f}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "avg_accuracy",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "avg_accuracy = sum([result[1] for result in results]) / len(results)\nprint(f\"\\nResultados promedio - Pérdida: {avg_loss:.4f}, Precisión: {avg_accuracy:.4f}\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "SoundClassifier",
+        "kind": 6,
+        "importPath": "model",
+        "description": "model",
+        "peekOfCode": "class SoundClassifier(nn.Module):\n    def __init__(self):\n        super(SoundClassifier, self).__init__()\n        self.conv1 = nn.Conv2d(1, 32, kernel_size=3, padding=1)\n        self.bn1 = nn.BatchNorm2d(32)\n        self.conv2 = nn.Conv2d(32, 64, kernel_size=3, padding=1)\n        self.bn2 = nn.BatchNorm2d(64)\n        self.conv3 = nn.Conv2d(64, 128, kernel_size=3, padding=1)\n        self.bn3 = nn.BatchNorm2d(128)\n        self.conv4 = nn.Conv2d(128, 256, kernel_size=3, padding=1)  ",
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n# Cargar el modelo guardado\nmodel = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold10.pth\", weights_only=True))\nmodel.eval()\n# Transformaciones para el espectrograma\ntransform = transforms.Compose([\n    transforms.Resize((64, 64)),\n    transforms.ToTensor()\n])",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "model = SoundClassifier().to(device)\nmodel.load_state_dict(torch.load(\"modelo_entrenado_fold10.pth\", weights_only=True))\nmodel.eval()\n# Transformaciones para el espectrograma\ntransform = transforms.Compose([\n    transforms.Resize((64, 64)),\n    transforms.ToTensor()\n])\n# Ruta del espectrograma de prueba\nimg_path = sys.argv[1] if len(sys.argv) > 1 else r\"C:\\Users\\adria\\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\\7mo Sem\\DeepLearningSounds\\spectrograms\\7389-1-1-0.png\"",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "transform",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "transform = transforms.Compose([\n    transforms.Resize((64, 64)),\n    transforms.ToTensor()\n])\n# Ruta del espectrograma de prueba\nimg_path = sys.argv[1] if len(sys.argv) > 1 else r\"C:\\Users\\adria\\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\\7mo Sem\\DeepLearningSounds\\spectrograms\\7389-1-1-0.png\"\n# Cargar y transformar la imagen\nimage = Image.open(img_path).convert('L')\nimage = transform(image).unsqueeze(0).to(device)  # Agregar dimensión de batch\n# Hacer la predicción",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "img_path",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "img_path = sys.argv[1] if len(sys.argv) > 1 else r\"C:\\Users\\adria\\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\\7mo Sem\\DeepLearningSounds\\spectrograms\\7389-1-1-0.png\"\n# Cargar y transformar la imagen\nimage = Image.open(img_path).convert('L')\nimage = transform(image).unsqueeze(0).to(device)  # Agregar dimensión de batch\n# Hacer la predicción\nwith torch.no_grad():\n    output = model(image)\n    _, predicted = torch.max(output, 1)\n# Mapear la predicción a la clase correspondiente\nclasses = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", ",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "image = Image.open(img_path).convert('L')\nimage = transform(image).unsqueeze(0).to(device)  # Agregar dimensión de batch\n# Hacer la predicción\nwith torch.no_grad():\n    output = model(image)\n    _, predicted = torch.max(output, 1)\n# Mapear la predicción a la clase correspondiente\nclasses = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\npredicted_class = classes[predicted.item()]",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "image = transform(image).unsqueeze(0).to(device)  # Agregar dimensión de batch\n# Hacer la predicción\nwith torch.no_grad():\n    output = model(image)\n    _, predicted = torch.max(output, 1)\n# Mapear la predicción a la clase correspondiente\nclasses = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\npredicted_class = classes[predicted.item()]\nprint(f\"Predicción de clase: {predicted_class}\")",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "classes",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "classes = [\"air_conditioner\", \"car_horn\", \"children_playing\", \"dog_bark\", \"drilling\", \n           \"engine_idling\", \"gun_shot\", \"jackhammer\", \"siren\", \"street_music\"]\npredicted_class = classes[predicted.item()]\nprint(f\"Predicción de clase: {predicted_class}\")",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "predicted_class",
+        "kind": 5,
+        "importPath": "predict",
+        "description": "predict",
+        "peekOfCode": "predicted_class = classes[predicted.item()]\nprint(f\"Predicción de clase: {predicted_class}\")",
+        "detail": "predict",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "test_model",
+        "description": "test_model",
+        "peekOfCode": "model = SoundClassifier()\n# Crear un tensor aleatorio con forma (batch_size, canales, altura, ancho)\n# En este caso, batch_size = 1, canales = 1, altura = 64, ancho = 64\ndummy_input = torch.randn(1, 1, 64, 64)\n# Pasar el tensor a través del modelo\noutput = model(dummy_input)\n# Verificar la salida\nprint(\"Forma de la salida:\", output.shape)  # Debería ser (1, 10) ya que hay 10 clases",
+        "detail": "test_model",
+        "documentation": {}
+    },
+    {
+        "label": "dummy_input",
+        "kind": 5,
+        "importPath": "test_model",
+        "description": "test_model",
+        "peekOfCode": "dummy_input = torch.randn(1, 1, 64, 64)\n# Pasar el tensor a través del modelo\noutput = model(dummy_input)\n# Verificar la salida\nprint(\"Forma de la salida:\", output.shape)  # Debería ser (1, 10) ya que hay 10 clases",
+        "detail": "test_model",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "test_model",
+        "description": "test_model",
+        "peekOfCode": "output = model(dummy_input)\n# Verificar la salida\nprint(\"Forma de la salida:\", output.shape)  # Debería ser (1, 10) ya que hay 10 clases",
+        "detail": "test_model",
+        "documentation": {}
+    },
+    {
+        "label": "SpectrogramDataset",
+        "kind": 6,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "class SpectrogramDataset(Dataset):\n    def __init__(self, metadata, img_dir, transform=None):\n        self.metadata = metadata\n        self.img_dir = img_dir\n        self.transform = transform\n    def __len__(self):\n        return len(self.metadata)\n    def __getitem__(self, idx):\n        row = self.metadata.iloc[idx]\n        img_name = row['slice_file_name'].replace('.wav', '.png')",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def train(model, train_loader, criterion, optimizer, device):\n    model.train()  # Configura el modelo en training\n    running_loss = 0.0\n    for images, labels in train_loader:\n        images, labels = images.to(device), labels.to(device)\n        # Reinicia los gradientes\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        # Backward pass y optimización",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def evaluate(model, val_loader, criterion, device):\n    model.eval()  # Configura el modelo en evaluation\n    running_loss = 0.0\n    correct = 0\n    with torch.no_grad():\n        for images, labels in val_loader:\n            images, labels = images.to(device), labels.to(device)\n            # Forward pass\n            outputs = model(images)\n            loss = criterion(outputs, labels)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "cross_validate",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def cross_validate(model_class, csv_metadata, img_dir, device):\n    kfold = KFold(n_splits=10)\n    results = []\n    for fold, (train_idx, val_idx) in enumerate(kfold.split(csv_metadata)):\n        train_subset = csv_metadata.iloc[train_idx]\n        val_subset = csv_metadata.iloc[val_idx]\n        train_dataset = SpectrogramDataset(train_subset, img_dir, transform=transform)\n        val_dataset = SpectrogramDataset(val_subset, img_dir, transform=transform)\n        train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)\n        val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "transform",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "transform = transforms.Compose([\n    transforms.RandomHorizontalFlip(),  \n    transforms.RandomRotation(10),    \n    transforms.Resize((64, 64)),\n    transforms.ToTensor()\n])\nclass SpectrogramDataset(Dataset):\n    def __init__(self, metadata, img_dir, transform=None):\n        self.metadata = metadata\n        self.img_dir = img_dir",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nbatch_size = 64\nlearning_rate = 0.0001\nepochs = 20",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "batch_size",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "batch_size = 64\nlearning_rate = 0.0001\nepochs = 20",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "learning_rate",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "learning_rate = 0.0001\nepochs = 20",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "epochs",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "epochs = 20",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "metadata",
+        "kind": 5,
+        "importPath": "verificate",
+        "description": "verificate",
+        "peekOfCode": "metadata = pd.read_csv('UrbanSound8k.csv')\n# Nombre del archivo de audio original (sin la extensión de espectrograma)\naudio_file_name = '7389-1-1-0.wav'\n# Filtrar el DataFrame para encontrar el archivo y su clase\nfile_info = metadata[metadata['slice_file_name'] == audio_file_name]\n# Mostrar la clase real\nif not file_info.empty:\n    real_class = file_info.iloc[0]['class']\n    print(f\"Clase real para {audio_file_name}: {real_class}\")\nelse:",
+        "detail": "verificate",
+        "documentation": {}
+    },
+    {
+        "label": "audio_file_name",
+        "kind": 5,
+        "importPath": "verificate",
+        "description": "verificate",
+        "peekOfCode": "audio_file_name = '7389-1-1-0.wav'\n# Filtrar el DataFrame para encontrar el archivo y su clase\nfile_info = metadata[metadata['slice_file_name'] == audio_file_name]\n# Mostrar la clase real\nif not file_info.empty:\n    real_class = file_info.iloc[0]['class']\n    print(f\"Clase real para {audio_file_name}: {real_class}\")\nelse:\n    print(f\"Archivo {audio_file_name} no encontrado en los metadatos.\")",
+        "detail": "verificate",
+        "documentation": {}
+    },
+    {
+        "label": "file_info",
+        "kind": 5,
+        "importPath": "verificate",
+        "description": "verificate",
+        "peekOfCode": "file_info = metadata[metadata['slice_file_name'] == audio_file_name]\n# Mostrar la clase real\nif not file_info.empty:\n    real_class = file_info.iloc[0]['class']\n    print(f\"Clase real para {audio_file_name}: {real_class}\")\nelse:\n    print(f\"Archivo {audio_file_name} no encontrado en los metadatos.\")",
+        "detail": "verificate",
+        "documentation": {}
+    }
+]
